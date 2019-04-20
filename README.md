@@ -64,7 +64,7 @@ _Подготовил студент группы TI-164, Жданов Викт�
 ```csharp
  potion.Amount = amount;
  potion.Price = potion.Amount * potion.Price;
- pizza.CookStrategy = new DraughtofWeaknessPotion();
+ potion.CookStrategy = new DraughtofWeaknessPotion();
 ```
   ![alt text](screens/strategy.PNG "Logo Title Text 1")  
   *__Command Design Pattern__* - в проекте реализован AddCommandClass который имплиментирует ICommand интерфейс. Он добавляет зелья в заказ игрока
